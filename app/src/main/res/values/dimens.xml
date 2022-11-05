@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="post_fragment_vertical_padding">16dp</dimen>
+
+    <!-- Margin/Padding -->
+    <dimen name="padding_nano">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <!-- Post -->
+    <dimen name="post_item_header_height">42dp</dimen>
+    <dimen name="post_item_height">350dp</dimen>
+    <dimen name="post_item_image_height">200dp</dimen>
+    <dimen name="lottie_view_size">200dp</dimen>
+</resources>

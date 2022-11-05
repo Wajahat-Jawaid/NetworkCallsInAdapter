@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/post_item_height"
+    android:padding="@dimen/padding_large">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/featured_image"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/post_item_image_height"
+        android:background="@color/grey_light"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_medium"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/text_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/featured_image"
+        tools:text="Neuroscience News" />
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_regular"
+        android:includeFontPadding="false"
+        android:maxLines="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/text_subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        tools:text="How having the wordpress site saved this business in COVID-19" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/author_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:text="@string/author"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/text_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_nano"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/text_subtitle"
+            app:layout_constraintEnd_toStartOf="@+id/subscribers_count_label"
+            app:layout_constraintStart_toEndOf="@id/author_label"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Wajahat Jawaid" />
+
+        <TextView
+            android:id="@+id/subscribers_count_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/padding_nano"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:text="@string/subscribers_count"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/text_title"
+            app:layout_constraintEnd_toStartOf="@id/subscribers_count"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/subscribers_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/text_subtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="102" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

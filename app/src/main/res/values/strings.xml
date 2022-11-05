@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NetworkCallsInAdapter</string>
+    <string name="author">Author: </string>
+    <string name="subscribers_count">Subscribers count: </string>
+
+    <!-- Errors -->
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_data_found">No posts found. Please try later</string>
+    <string name="unexpected_error">An unexpected error occurred. Please try later</string>
+    <string name="no_application_to_open_link">You don\'t have an application to open this link</string>
+</resources>
