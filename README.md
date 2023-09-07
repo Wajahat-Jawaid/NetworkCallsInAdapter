@@ -43,7 +43,7 @@ Architecture</h2>
   width="26"
   height="26"
   style="float:left;">
-Package Structure</h2>
+   Package Structure</h2>
 
 <ul>
   <li><code>data</code> Classes to manage data communication across different components</li>
