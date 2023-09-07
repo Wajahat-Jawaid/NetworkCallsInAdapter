@@ -42,8 +42,7 @@ Architecture</h2>
 <h2> <img src="https://cdn-icons-png.flaticon.com/512/756/756940.png"
   width="26"
   height="26"
-  style="float:left;">
-   Package Structure</h2>
+  style="float:left;">  Package Structure</h2>
 
 <ul>
   <li><code>data</code> Classes to manage data communication across different components</li>
