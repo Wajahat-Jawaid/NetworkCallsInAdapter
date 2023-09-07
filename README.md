@@ -1,7 +1,6 @@
 # NetworkCallsInAdapter
 
 ### Architecture:
-<br />
 <ul>
   <li>Built with Modern Android Development practices</li>
   <li>Utilized Usecase, Repository pattern for data</li>
