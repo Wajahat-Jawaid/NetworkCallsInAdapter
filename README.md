@@ -37,8 +37,6 @@ Architecture</h2>
   <li><a href="https://robolectric.org/">Roboelectric</a> - A black box testing, making the tests more effective for refactoring and allowing the tests to focus on the behavior of the application instead of the implementation.</li>
 </ul>
 
-<br />
-
 <h2> <img src="https://cdn-icons-png.flaticon.com/512/756/756940.png"
   width="26"
   height="26"
